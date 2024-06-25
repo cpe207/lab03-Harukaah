@@ -4,6 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img src="cpe-logo.87f1be2d.png" width="200" alt="CPE logo">
+      <h1>Portfolio</h1>
+    </header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home page</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="contact.html">Gallery</a></li>
+        <li><a href="gallery.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- something add maybe later idk -->
+    </main>
+
+    <main class="container mt-5">
+      <div class="d-flex align-items-start border p-3">
+        <img src="IMG_2541.webp" alt="Profile Picture" class="rounded-circle me-3" style="width: 500px; height: 150px; object-fit: cover;">
+        <div class="flex-grow-1">
+          <h3 class="mb-0">Sirapob Yongmarnwong</h3>
+          <h3 class="mb-0">                       </h3>
+          <p class="mb-0">Hello, my name is Phupha, I came from Bangkok and decided to live in Chiang Mai. For the past 10 years, I grew up with the interest of technology and wishing to get into the game industry and application development. My interests also cover the medical area while I was High School. Therefore, my project is based on Biomedical Engineering which has won both international and national awards. I am currently 19 and I am studying in the Faculty of Engineering, Department of Computer Engineering, Chiang Mai University.</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- flexbox thing -->
+    <main class="container mt-5 d-flex flex-wrap">
+      <div class="flex-container me-3">
+        <div class="image-container">
+          <img src="13951-1633165472.png" alt="Image1" style="width: 150px; height: 150px;">
+        </div>
+        <div class="content-container">
+          <h2>Games</h2>
+          <p>I am fond with Rhythm Games, mainly Taiko no Tatsujin and Project Sekai. Former top 10 of Thailand in osu!taiko. I also love Genshin Impact since I was a kid and always fascinated with magic. </p>
+        </div>
+      </div>
+
+      <div class="flex-container me-3">
+        <div class="image-container">
+          <img src="Logo_C_sharp.svg.png" alt="Image2" style="width: 130px; height: 150px;">
+        </div>
+        <div class="content-container">
+          <h2>Programming</h2>
+          <p>I like game development and using Unity. My favorite and go-to language is C#, I also know some CSS, HTML, and C++ from studying in university.</p>
+        </div>
+      </div>
+
+      <div class="flex-container me-3">
+        <div class="image-container">
+          <img src="tu3gt6ysfxq71.png" alt="Image3" style="width: 150px; height: 150px;">
+        </div>
+        <div class="content-container">
+          <h2>Unity</h2>
+          <p>I tried to make a 3D 5v5 magic-based battle game with my friend who is currently in Electrical Engineering CMU. Now the project is on halt and still in development since I'm busy with university.</p>
+        </div>
+      </div>
+
+      <div class="flex-container me-3">
+        <div class="image-container">
+          <img src="Biomedical-Engineering.png" alt="Image4" style="width: 150px; height: 150px;">
+        </div>
+        <div class="content-container">
+          <h2>Medical Interest</h2>
+          <p>During highschool I had done research regarding biomedical engineering, which is a hydrogel to treat basic wounds from accidents and reduce inflammation.</p>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>
